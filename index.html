@@ -1,40 +1,209 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+        <link href="CSS/style.css" rel="stylesheet" type="text/css">
         <title>UX/UI Homework 20</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
-        <link href="CSS/style.css">
+        
     </head>
     <body>
-     <!-- main navigation -->   
-     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="../UX_UI_HW_20/images/LOBlack.png" alt="Linda Overgard"> </a>
-          <a class="navbar-logo" href="#"><img src="../UX_UI_HW_20/images/logo.png" alt="logo" width="80" height="80">   </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
+     <!-- main navigation BS nav-component--> 
+     <nav class="main-navigation" >
+       
+     
+     <ul class="nav justify-content-center">
+      <a href="#"><img class="name"src="../UX_UI_HW_20/images/LOBlack.png" alt="Linda Overgard"></a>
+      <a href="#"><img class="logo"src="../UX_UI_HW_20/images/logo.png" alt="Linda Overgard"></a>
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#">WORK</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link menuHover" href="#">ABOUT</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link menuHover" href="#">RESUME</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link menuHover" href="#">EMAIL</a>
+      </li>
+      
+    </ul>
+    </nav>
+
+    
+
+    <!--  sub-navigation BS nav-component-->
+
+    <ul class="subNav nav">
+      <li class="nav-item">
+        <a class="nav-link active subActive" aria-current="page" href="#">HappyHamper</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link subHover" href="#">Research</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link subHover" href="#">Problem Statement</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link subHover" href="#">Iteration</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link subHover" href="#">Prototype</a>
+      </li>
+      
+    </ul>
+
+
+    <!--  Hero section BS card-component-->
+    <div class="background-cs">
+      
+
+    <div class="card mb-3">
+      <img src="../UX_UI_HW_20/images/Screen Shot 2021-10-08 at 09.38.22.png" class="card-img-top" alt="Happy Hamper">
+      <div class="card-body">
+        <h5 class="card-title">Happy Hamper</h5>
+        <p class="card-text">Not everyone has the time or interest in doing laundry, and so it becomes a big source of stress in their daily life. 
+          They might not even have a washer and dryer at home, and going to the laundromat eats up a lot of time.
+          But there are people out there that love doing laundry… <br><br>
+          
+          HappyHamper connects these two groups of people. By using the app, the user is connected with a person, also known as a HappyHamper, that will pick up your hamper, do your laundry per your preferences, 
+          and then drop it off in a timely manner.
+          
+          </p>
+        
+      </div>
+    </div>
+    
+    
+    
+    <!--  Research section BS card-component-->
+
+    <div class="research">
+
+    <div class="research-head">
+      <h3>Research</h3>
+    </div>
+  </div>
+
+    <div class="card mb-3" style="max-width: 50%;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="../UX_UI_HW_20/images/Screen Shot 2021-10-08 at 10.19.38.png" class="img-fluid rounded-start" alt="hamper with clothes">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            
+            <p class="card-text">We conducted User Interviews with a wide variety of Users to gain insights into where their pain points are during the entire process of laundry, as well as what measures need to be in place for the user to feel confident in the service and leaving their laundry with a stranger.
+               <br><br>
+              “I thought it was <strong>literally fantastic </strong> having 
+              a laundry service do my laundry.”
+              <br><br>
+              “I don’t like sorting, I don’t like folding, I guess if I had to pick one thing I like it would be <strong>adding detergent</strong>.”
+              <br><br>
+              I would like for someone to definitely wash fold and dry my clothes, and <strong>definitely fold</strong>.
+              </p>
             
           </div>
         </div>
-      </nav>
+      </div>
+    </div>
+
+        <!--  Problem Statement section BS card-component-->
+
+        <div class="ps">
+
+          <div class="ps-head">
+            <h3>Problem Statement</h3>
+          </div>
+        </div>
+
+        <div class="card mb-3">
+          
+          <div class="card-body">
+            
+            <p class="card-text">Based on our research we see that the process of laundry is causing unnecessary stress for people. 
+              Our users find it difficult to keep up with their laundry. <br><br>
+              <strong>How might we  provide a method for individuals to complete their laundry in a reliable way, so they do not have to worry about a full load of laundry or having clean clothes,  and can instead do as they wish with their precious time off?</strong>
+              
+              
+              </p>
+            
+          </div>
+        </div>
+
+
+        <!--  Iteration section BS card-component-->
+
+        <div class="iteration">
+
+          <div class="iteration-head">
+            <h3>Iteration</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card iterationcard">
+              <div>
+                <img src="images/Order_X.png" class="img-fluid rounded-start" alt="order page">
+              </div>
+              <div class="card-body">
+                
+                <p class="card-text"><strong>“The ordering page looks so intimidating…”</strong>
+                </p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <div>
+                <img src="images/services.png" class="img-fluid rounded-start" alt="services">
+              </div>
+              <div class="card-body">
+                
+                <p class="card-text"><strong>Iterate on “Favorite Hamper” & “Wash & Fold” squares , the purpose of each are confusing.</strong>
+                </p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+    <!--  Prototype section BS col-system-->
+    <div class="pt">
+
+      <div class="pt-head">
+        <h3>Prototype</h3>
+      </div>
+    </div>
+
+    <div class="container prototype-images">
+      <div class="row">
+        <div class="col align-self-start">
+          <img src="images/login.png" class="img-fluid rounded-start" alt="login">
+        </div>
+        <div class="col align-self-center">
+          <img src="images/Hiome.png" class="img-fluid rounded-start" alt="home">
+        </div>
+        <div class="col align-self-end">
+          <img src="images/order_det.png" class="img-fluid rounded-start" alt="order">
+        </div>
+      </div>
+    </div>
+
+        
+  
+  
+    
+  
+    
+    
+     
 
       
 
-
+    </div>
     </body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
 </html>
